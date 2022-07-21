@@ -1,0 +1,90 @@
+.container {
+  min-width: 300px;
+  max-width: 550px;
+  border-radius: 15px;
+  overflow: hidden;
+  position: relative;
+  margin: 0 auto;
+}
+
+.label {
+  width: 747px;
+  height: 494px;
+  border-radius: 16%;
+  background-color: #0782824f;
+  transform: rotate(22deg) translateY(-301px) translateX(-125px);
+}
+
+.labelBorder {
+  width: 704px;
+  height: 431px;
+  border-radius: 16%;
+  background-color: #078282;
+  transform: rotate(21deg) translateY(-733px) translateX(-285px);
+}
+
+.backIcon {
+  width: 45px;
+  height: 45px;
+  color: #078282;
+  position: absolute;
+  left: 15px;
+  top: 100px;
+  cursor: pointer;
+}
+
+.OR {
+  width: 85%;
+  height: 2px;
+  border-radius: 5px;
+  background: #078282;
+  position: relative;
+  margin-top: 35px;
+}
+
+.redusOR {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.redusOR div {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 3px solid #11a1a1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #078282;
+  font-weight: 900;
+  font-size: 15px;
+}
+
+.loginCart {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  border-radius: 40px;
+  box-shadow: 0px 2px 20px #c1c7d0;
+  cursor: pointer;
+}
+
+.loginCart div {
+  width: 80%;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.loginCart div span {
+  font-weight: bold;
+}
